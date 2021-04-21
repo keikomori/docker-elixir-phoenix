@@ -16,7 +16,7 @@ Acesse a pasta do projeto:
 cd docker-elixir-phoenix
 ```
 
-Crie uma pasta com o nome /src
+Crie uma pasta com o nome `/src`
 
 ```
 mkdir src
@@ -56,11 +56,19 @@ Agora vamos inicializar o banco de dados com o Ecto
 docker-compose run --rm phoenix mix ecto.create
 ```
 
+Agora podemos testar se o Elixer e Phoenix estão funcionando devidamente executando
 
 ```
 docker-compose up
 ```
 
+No navegador acesse a página
+
+```
+http://localhost:4000/dashboard
+```
+
+Seu ambiente Docker está pronto para criar sua aplicação!!!
 
 
 <h4>Comandos Docker Úteis</h4>
