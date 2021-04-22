@@ -71,20 +71,6 @@ http://localhost:4000/dashboard
 Seu ambiente Docker está pronto para criar sua aplicação!!!
 
 
-<h4>Extras</h4>
-
-Para fechar os containers utilize
-
-```
-docker-compose down -v
-```
-
-Caso adicione alguma dependência execute
-
-```
-docker-compose run --rm phoenix mix deps.get
-```
-
 <h4>Comandos Docker Úteis</h4>
 
  - `docker ps` lista todos os container que estão em execução no momento
