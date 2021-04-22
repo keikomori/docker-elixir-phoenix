@@ -16,11 +16,6 @@ Acesse a pasta do projeto:
 cd docker-elixir-phoenix
 ```
 
-Crie uma pasta com o nome `/src`
-
-```
-mkdir src
-```
 Execute a imagem do Dockerfile
 
 ```
