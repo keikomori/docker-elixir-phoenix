@@ -16,13 +16,13 @@ Acesse a pasta do projeto:
 cd docker-elixir-phoenix
 ```
 
-Execute a imagem do Dockerfile
+Execute a imagem do Dockerfile:
 
 ```
 docker-compose build
 ``` 
 
-Crie sua aplicação
+Crie sua aplicação:
 
 ```
 docker-compose run --rm phoenix mix phx.new . --app <nome da aplicação> --no-html --no-webpack
@@ -43,21 +43,21 @@ adapter: Ecto.Adapters.Postgres,
   pool_size: 10
 ```
 
-> Vai ficar da forma que está acima
+> Vai ficar da forma que está acima.
 
-Agora vamos inicializar o banco de dados com o Ecto
+Agora vamos inicializar o banco de dados com o Ecto:
 
 ```
 docker-compose run --rm phoenix mix ecto.create
 ```
 
-Agora podemos testar se o Elixer e Phoenix estão funcionando devidamente executando
+Agora podemos testar se o Elixer e Phoenix estão funcionando devidamente executando:
 
 ```
 docker-compose up
 ```
 
-No navegador acesse a página
+No navegador acesse a página:
 
 ```
 http://localhost:4000/dashboard
@@ -65,7 +65,7 @@ http://localhost:4000/dashboard
 
 Seu ambiente Docker está pronto para criar sua aplicação!!!
 
-<h4>Dica quente: Se tu for instalar alguma dependência, não esqueça de executar os comandos abaixo </h4>
+<h4>Dica quente: Se tu for instalar alguma dependência, não esqueça de executar os comandos abaixo: </h4>
 
 ```
 docker-compose run --rm phoenix mix deps.get
@@ -73,7 +73,7 @@ docker-compose run --rm phoenix mix deps.get
 docker-compose run --rm phoenix mix deps.compile
 ```
 
-<h4>Comandos Docker Úteis</h4>
+<h4>Comandos Docker Úteis!!</h4>
 
  - `docker ps` lista todos os container que estão em execução no momento
  - `docker container ls --all` lista todos os container que estão disponíveis
