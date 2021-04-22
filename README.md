@@ -65,6 +65,13 @@ http://localhost:4000/dashboard
 
 Seu ambiente Docker está pronto para criar sua aplicação!!!
 
+<h4>Dica quente: Se tu for instalar alguma dependência, não esqueça de executar os comandos abaixo </h4>
+
+```
+docker-compose run --rm phoenix mix deps.get
+
+docker-compose run --rm phoenix mix deps.compile
+```
 
 <h4>Comandos Docker Úteis</h4>
 
