@@ -81,3 +81,4 @@ Seu ambiente Docker está pronto para criar sua aplicação!!!
  - `docker images` lista todas as imagens disponíveis
  - `docker rmi <images>` remove uma imagem
  - `docker-compose down --volumes` destrói os volumes criados
+ - `docker-compose up` cria e inicializa os containers
